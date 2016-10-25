@@ -21,7 +21,7 @@ class PolicyViolation(JsonObject):
               'detected_time_ms': 'detectedTimeInMillis',
               'deep_link_url': 'deepLinkUrl'}
 
-    STATUSES = ('NOT_APPLICABLE', 'OPEN', 'RESOLVED')
+    STATUSES = ('NOT_APPLICABLE', 'OPEN', 'RESOLVED', 'CANCELLED')
 
     SEVERITIES = ('INFO', 'WARNING', 'CRITICAL')
 
